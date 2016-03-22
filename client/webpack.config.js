@@ -1,7 +1,7 @@
 //require our dependencies
-var path = require('path')
-var webpack = require('webpack')
-var BundleTracker = require('webpack-bundle-tracker')
+var path = require('path');
+var webpack = require('webpack');
+var BundleTracker = require('webpack-bundle-tracker');
 
 module.exports = {
     //the base directory (absolute path) for resolving the entry option
@@ -53,4 +53,4 @@ module.exports = {
         //extensions that should be used to resolve modules
         extensions: ['', '.js', '.jsx'] 
     }   
-}
+};

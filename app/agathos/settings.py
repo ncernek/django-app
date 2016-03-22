@@ -160,7 +160,7 @@ STATICFILES_FINDERS = (
 
 WEBPACK_LOADER = {
     'DEFAULT': {
-        'BUNDLE_DIR_NAME': 'dist/bundles/',
+        'BUNDLE_DIR_NAME': 'dist/',
         'STATS_FILE': os.path.join(_django_project_root, 'client', 'static', 'webpack-stats.json'),
     }
 }
