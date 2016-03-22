@@ -1,0 +1,5 @@
+Django
+gevent
+envdir
+djangorestframework
+django-webpack-loader
